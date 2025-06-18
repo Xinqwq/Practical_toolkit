@@ -1,35 +1,3 @@
-# Practical_toolkit
-Practical Utils Toolkit 🛠️
-
-Welcome to the **Practical Toolkit**! This repository contains a collection of Python scripts designed to make common image processing tasks easier and more efficient. All tools are built using **Pillow**, the powerful Python Imaging Library (PIL).
-
-## 🔧 Features
-
-- **Convert JPG to PNG**: Convert .jpg images to .png format.
-- **Convert WebP to PNG**: Convert .webp images to .png format.
-- **Mirror Images**: Apply horizontal mirroring (flip) to a set of images.
-- **Split 4-Grid Images**: Split a rectangular 4-grid image into four equal parts.
-
-## 🚀 Getting Started
-
-These tools are meant to be used as standalone Python scripts. They can process images in bulk and are very easy to use.
-
-### 📦 Prerequisites
-
-You need to have **Python** and **Pillow** installed:
-
-1. Install Python from the official website: https://www.python.org/downloads/
-2. Install the required dependencies:
-
-
-
-
-
-
-
-
-
-
 # Practical Toolkit: Image Tools 🖼️🛠️
 
 Welcome to **Practical Toolkit**! This repository contains a collection of Python scripts designed for various image processing tasks using the **Pillow** library. All of the image-related tools are stored in the `tools/image_tools` directory.
