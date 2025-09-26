@@ -70,6 +70,13 @@ python tools/image_tools/split_4grid_images.py
 ```
 This will split all images in the directory into 4 parts: top-left, top-right, bottom-left, and bottom-right. The new images will be saved in a splits/ folder.
 
+5.  Remove background color for Images:
+
+```bash
+python tools/image_tools/remove_bg_png.py
+```
+Select portrait model or object model as needed, select parameter mode or custom parameter script will be applied automatically.
+
 ### 🗂️ Directory Structure
 ```
 Practical_toolkit/
