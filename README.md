@@ -87,6 +87,8 @@ Make sure the images you want to process are in the same directory as the script
 
 These tools work on .jpg, .png, .webp image formats, but you can modify the scripts if you need to support other formats.
 
+Regarding tool `#5` - `remove_bg_png.py`, additional dependencies `rembg` and `onnxruntime` are required, make sure they are installed before running.
+
 ### 🤝 Contributions
 Feel free to contribute to this project! You can open issues for bugs or feature requests, or fork the repository to add new tools.
 
@@ -95,7 +97,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 </details>
 
-<details> 
+<details open> 
 <summary>🇨🇳 中文</summary>
 欢迎来到 **Practical Toolkit**！  
 本仓库包含一组使用 **Pillow** 库编写的 Python 脚本，用于各种图像处理任务。所有与图像相关的工具都存放在 `tools/image_tools` 目录下。
@@ -166,7 +168,7 @@ python tools/image_tools/remove_bg_png.py
 根据需要选择人像模型或物体模型，选好参数模式或者自定义参数脚本会自动应用。
 
 🗂️ 目录结构
-复制代码
+```
 Practical_toolkit/
 ├── tools/
 │   └── image_tools/
@@ -176,16 +178,17 @@ Practical_toolkit/
 │       ├── split_4grid_images.py
 │       └── remove_bg_png.py
 └── README.md
+```
 ⚠️ 注意
 确保要处理的图片和脚本在同一目录，或者在脚本里指定路径。
 
-这些工具支持 .jpg, .png, .webp 格式，如果需要支持其他格式，可以自行修改脚本。
+这些工具支持 `.jpg, .png, .webp`等格式，如果需要支持其他格式，可以自行修改脚本。
 
-remove_bg_png.py 需要额外依赖 rembg 和 onnxruntime，运行前请确保已安装。
+`remove_bg_png.py` 需要额外依赖 `rembg` 和 `onnxruntime`，运行前请确保已安装。
 
 🤝 贡献
-欢迎对本项目进行贡献！你可以提交 issue 报告 bug 或提出新功能，也可以 fork 本仓库来添加新工具。
+欢迎对本项目进行贡献！你可以提交 `issue` 报告 `bug` 或提出新功能，也可以 `fork` 本仓库来添加新工具。
 
 📄 许可证
-本项目使用 MIT License - 详见 LICENSE 文件。
+本项目使用 `MIT License` - 详见 `LICENSE` 文件。
 </details>
