@@ -137,7 +137,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ```bash
 pip install pillow rembg onnxruntime
 ```
-💡 使用方法
+### 💡 使用方法
 以下是每个工具的使用示例：
 
 1.  JPG 转 PNG:
@@ -167,7 +167,7 @@ python tools/image_tools/remove_bg_png.py
 ```
 根据需要选择人像模型或物体模型，选好参数模式或者自定义参数脚本会自动应用。
 
-🗂️ 目录结构
+### 🗂️ 目录结构
 ```
 Practical_toolkit/
 ├── tools/
@@ -179,16 +179,16 @@ Practical_toolkit/
 │       └── remove_bg_png.py
 └── README.md
 ```
-⚠️ 注意
+### ⚠️ 注意
 确保要处理的图片和脚本在同一目录，或者在脚本里指定路径。
 
 这些工具支持 `.jpg, .png, .webp`等格式，如果需要支持其他格式，可以自行修改脚本。
 
 `remove_bg_png.py` 需要额外依赖 `rembg` 和 `onnxruntime`，运行前请确保已安装。
 
-🤝 贡献
+### 🤝 贡献
 欢迎对本项目进行贡献！你可以提交 `issue` 报告 `bug` 或提出新功能，也可以 `fork` 本仓库来添加新工具。
 
-📄 许可证
+### 📄 许可证
 本项目使用 `MIT License` - 详见 `LICENSE` 文件。
 </details>
